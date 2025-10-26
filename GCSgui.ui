@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1091</width>
+    <height>776</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="simEnable">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>220</y>
+     <width>111</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simulation Enable</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="simActivate">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>260</y>
+     <width>111</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simulation Activate</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="calAltitude">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>300</y>
+     <width>111</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Calibrate Altitude</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="totMissionTime">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>70</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="totMissionTimeLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Total Mission Time</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="packetCountLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Packet Count</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="packetCount">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="modeLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mode</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>20</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CanSat Ground Station - &lt;Team ID&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mode">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>150</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>null</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stateLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>190</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>State</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="state">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>190</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>null</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="altitudeLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>230</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Altitude</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="altitude">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>230</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="temperatureLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>270</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Temperature</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="temperature">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>270</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pressureLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>310</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pressure</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="pressure">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>310</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="voltageLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>350</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Voltage</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="voltage">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>350</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="currentLabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>390</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Current</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="current">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>390</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gyroRLabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>420</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Axis Information</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="gyroR">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>440</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gyroPLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>480</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pitch Axis</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="AcceleromterR">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>440</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gyroYLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>640</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Yaw Axis Gyro</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="gyroY">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>640</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gyroYLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>550</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rollAxis">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>440</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Roll Axis</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gyroRLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>440</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gyro</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="accelerometerRLabel">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>440</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Accelerometer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gyroPLabel_5">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>480</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gyro</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="gyroR_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>480</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gyroPLabel_6">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>480</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Accelerometer</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="AcceleromterR_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>480</y>
+     <width>64</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
