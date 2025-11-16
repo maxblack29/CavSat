@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'GCSguiWUcide.ui'
+## Form generated from reading UI file 'GCSguiDMXDbe.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.3
+## Created by: Qt User Interface Compiler version 6.10.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -203,38 +203,38 @@ class Ui_Dialog(object):
         self.line = QFrame(Dialog)
         self.line.setObjectName(u"line")
         self.line.setGeometry(QRect(420, 50, 20, 391))
-        self.line.setFrameShape(QFrame.VLine)
-        self.line.setFrameShadow(QFrame.Sunken)
+        self.line.setFrameShape(QFrame.Shape.VLine)
+        self.line.setFrameShadow(QFrame.Shadow.Sunken)
         self.line_2 = QFrame(Dialog)
         self.line_2.setObjectName(u"line_2")
         self.line_2.setGeometry(QRect(0, 40, 1111, 21))
-        self.line_2.setFrameShape(QFrame.HLine)
-        self.line_2.setFrameShadow(QFrame.Sunken)
+        self.line_2.setFrameShape(QFrame.Shape.HLine)
+        self.line_2.setFrameShadow(QFrame.Shadow.Sunken)
         self.line_3 = QFrame(Dialog)
         self.line_3.setObjectName(u"line_3")
         self.line_3.setGeometry(QRect(0, 390, 431, 20))
-        self.line_3.setFrameShape(QFrame.HLine)
-        self.line_3.setFrameShadow(QFrame.Sunken)
+        self.line_3.setFrameShape(QFrame.Shape.HLine)
+        self.line_3.setFrameShadow(QFrame.Shadow.Sunken)
         self.line_4 = QFrame(Dialog)
         self.line_4.setObjectName(u"line_4")
         self.line_4.setGeometry(QRect(550, 440, 20, 341))
-        self.line_4.setFrameShape(QFrame.VLine)
-        self.line_4.setFrameShadow(QFrame.Sunken)
+        self.line_4.setFrameShape(QFrame.Shape.VLine)
+        self.line_4.setFrameShadow(QFrame.Shadow.Sunken)
         self.line_5 = QFrame(Dialog)
         self.line_5.setObjectName(u"line_5")
         self.line_5.setGeometry(QRect(0, 620, 561, 20))
-        self.line_5.setFrameShape(QFrame.HLine)
-        self.line_5.setFrameShadow(QFrame.Sunken)
+        self.line_5.setFrameShape(QFrame.Shape.HLine)
+        self.line_5.setFrameShadow(QFrame.Shadow.Sunken)
         self.line_6 = QFrame(Dialog)
         self.line_6.setObjectName(u"line_6")
         self.line_6.setGeometry(QRect(560, 530, 561, 20))
-        self.line_6.setFrameShape(QFrame.HLine)
-        self.line_6.setFrameShadow(QFrame.Sunken)
+        self.line_6.setFrameShape(QFrame.Shape.HLine)
+        self.line_6.setFrameShadow(QFrame.Shadow.Sunken)
         self.line_7 = QFrame(Dialog)
         self.line_7.setObjectName(u"line_7")
         self.line_7.setGeometry(QRect(430, 430, 131, 20))
-        self.line_7.setFrameShape(QFrame.HLine)
-        self.line_7.setFrameShadow(QFrame.Sunken)
+        self.line_7.setFrameShape(QFrame.Shape.HLine)
+        self.line_7.setFrameShadow(QFrame.Shadow.Sunken)
 
         self.retranslateUi(Dialog)
 
